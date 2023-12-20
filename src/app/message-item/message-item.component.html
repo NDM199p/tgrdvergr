@@ -1,0 +1,9 @@
+<app-bot-message-item
+  *ngIf="name === 'bot'"
+  [content]="content"
+></app-bot-message-item>
+
+<app-guest-message-item
+  *ngIf="name === 'guest'"
+  [content]="content"
+></app-guest-message-item>
